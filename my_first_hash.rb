@@ -1,7 +1,13 @@
 def my_hash
   # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
-
-  
+  member = {
+    "surname" => "Chia", 
+    "firtname" => "Ni", 
+    "birthdate" => 19710525, 
+    "gender" => "f"}
+  member["surname"]
+  member["weight"] = 100
+  member
 end
 
 
